@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_margin="8dp"
+    android:id="@+id/cardViewPrice"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_height="270dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagePrice"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@color/colorGreenDark"
+            android:layout_width="160dp"
+            android:layout_height="160dp" />
+
+        <TextView
+            android:id="@+id/textViewPriceName"
+            android:textColor="@color/colorGreenDark"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="Crop Name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/textViewQty"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Quentity : 10 kg"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="Price"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

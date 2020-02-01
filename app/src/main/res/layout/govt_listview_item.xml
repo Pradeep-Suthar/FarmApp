@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewCrop"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageGovt"
+                android:layout_width="300dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/gov" />
+
+            <TextView
+                android:textColor="@color/colorGreenDark"
+                android:textAlignment="center"
+                android:id="@+id/textGovtName"
+                android:layout_margin="3dp"
+                android:textSize="25dp"
+                android:text="Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/textGovtDecription"
+                android:layout_margin="3dp"
+                android:textSize="20dp"
+                android:text="Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

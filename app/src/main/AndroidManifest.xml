@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farmapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo3copy"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo3copy"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.BankRequestActivity"></activity>
+        <activity android:name=".Activity.GovtServicesActivity" />
+        <activity android:name=".Activity.TechnologyActivity" />
+        <activity android:name=".Activity.FertilizerActivity" />
+        <activity android:name=".Activity.CropPriceActivity" />
+        <activity android:name=".Activity.CropDetailsActivity" />
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.SignUpActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity android:name=".Activity.SplaseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

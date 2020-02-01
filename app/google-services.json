@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "757253995265",
+    "firebase_url": "https://farmapp-a1a0c.firebaseio.com",
+    "project_id": "farmapp-a1a0c",
+    "storage_bucket": "farmapp-a1a0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757253995265:android:5e1cc9b95ab3a645",
+        "android_client_info": {
+          "package_name": "com.example.farmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757253995265-ovbel45nrjr32ktmambm3uckjdtifdc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvWqfH6d0TNu_CEdJFiamzDwFu4fqTwkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757253995265-ovbel45nrjr32ktmambm3uckjdtifdc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

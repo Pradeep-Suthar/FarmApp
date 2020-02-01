@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kheti Guru</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_Crop">Crop</string>
+    <string name="title_Chat">Chat</string>
+    <string name="title_Services">Services</string>
+    <string name="title_Weather">Weather</string>
+
+
+    <string name="title_activity_main2">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_Profile">View Profile</string>
+    <string name="menu_EditProfile">Edit Profile</string>
+    <string name="menu_Help">Help</string>
+    <string name="menu_About">About</string>
+    <string name="menu_Change_Pwd">Change Password</string>
+    <string name="menu_SignOut">SignOut</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

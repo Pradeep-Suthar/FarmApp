@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/viewprofile"
+            android:title="@string/menu_Profile" />
+        <item
+            android:id="@+id/nav_EditProfile"
+            android:icon="@drawable/viewprofile"
+            android:title="@string/menu_EditProfile" />
+        <item
+            android:id="@+id/nav_ChangePwd"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="@string/menu_Change_Pwd" />
+        <item
+            android:id="@+id/nav_Help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/menu_Help" />
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/menu_About" />
+
+        <item
+            android:id="@+id/nav_SignOut"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_SignOut" />
+    </group>
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/frameLayout"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ChatFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_margin="5dp"
+            android:layout_above="@+id/btnChat"
+            android:id="@+id/chatContainFrgment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btnChat"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp"
+            android:weightSum="2"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnGenralChat"
+                android:layout_margin="5dp"
+                android:selectAllOnFocus="true"
+                android:text="Genral Chat"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnExpertChat"
+                android:layout_margin="5dp"
+                android:text="Expert Chat"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
